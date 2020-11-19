@@ -23,11 +23,25 @@ Summary for commit 2.0:
 * Quick access is linked respectively
 * Adjusted the navigation bar text color
 
+## Commit 3.0
+For the third commit, I have finished the footer completely, including extra features such as the developer logos. All icons and buttons are linked respectively. I tried to keep the footer as clean as possible without too many different sized items.
+
+Also, I changed the quick access icons a bit such as a hover overlay and also linked it appropriately to its pages. Similarly, all icons, photos and videos are all placed into their new created respective folders based on the page itself. All folders were named conventionally.
+
+Summary for commit 3.0:
+* Completed Footer for Home Page
+* Added Hover Overlay for Quick Access in Main
+* Clean up some code for the previous sections
+* Categorised my photos and icons into folders.
+
+## Commit 4.0
+Summary for commit 4.0:
+* TBD
+
 ## Feature Goals (To be done near end of project only):
--[] Navigation bar text color to refine
 -[] Navigation bar position to follow user scroll
--[] Purchase bar yet to be linked to corresponding website
--[] To do APA Citation for all references and links
+-[] Responsiveness yet to be completed
+-[] Add hover overlay for footer buttons and icons
 
 ## Features:
 * Home Page

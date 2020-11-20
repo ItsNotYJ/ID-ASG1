@@ -366,3 +366,77 @@
 
 /* Gameplay */
 /* Main */
+.gameplayTitle{
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.gameplayContainer{
+    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0), rgb(66, 100, 98, 0.8));
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campaign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid rgb(245, 245, 245, 0.7);
+}
+
+.multiplayer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid rgb(245, 245, 245, 0.7);
+    padding-top: 50px;
+}
+
+.warzone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid rgb(245, 245, 245, 0.7);
+    padding-top: 50px;
+}
+
+.specialops{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid rgb(245, 245, 245, 0.7);
+    padding-top: 50px;
+}
+
+.campaignVideo{
+    width: 50%;
+    height: 550px;
+}
+
+.multiplayerVideo{
+    width: 50%;
+    height: 550px;
+}
+
+.warzoneVideo{
+    width: 50%;
+    height: 550px;
+}
+
+.specopsVideo{
+    width: 50%;
+    height: 550px;
+}
+
+.credit{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}

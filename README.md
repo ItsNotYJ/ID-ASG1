@@ -46,6 +46,19 @@ Summary for commit 4.0:
 * Touched up home page background (Linear Gradient)
 * Feature page segregation
 
+## Commit 5.0
+For the fifth commit, I have fully completed the gameplay page adding all the required videos and embedded them into the website. All 4 respective video creators have been credited below under the Media Credits area.
+
+Similar to the other pages I stuck with the linear gradient background to make it uniform throughout the pages and also slightly more appealing.
+
+For the next upcoming commit, I will try to implement a sticky navigation bar if possible as well as improve on the responsiveness of the website. Hopefully 100% responsiveness by the next commit.
+
+Summary for commit 5.0:
+* Completed Gameplay page
+* Linear Gradient Background
+* Video embedded into the page
+* All video content creators are linked and credited appropriately in README.md
+
 ## Feature Goals (To be done near end of project only):
 -[] Navigation bar position to follow user scroll
 -[] Responsiveness yet to be completed
@@ -90,6 +103,10 @@ Summary for commit 4.0:
 
 ### Media:
 * [Modern Warfare Cinematics](https://www.youtube.com/watch?v=3XSi4VQRL8E&ab_channel=Cal)
+* [Campaign Gameplay](https://www.youtube.com/watch?v=4MglAQncpTM&feature=youtu.be&ab_channel=theRadBrad)
+* [Multiplayer Gameplay](https://www.youtube.com/watch?v=vgQrT3RpRhI&feature=youtu.be&ab_channel=NoahJ456)
+* [Warzone Gameplay](https://www.youtube.com/watch?v=bjhnNsvGsaI&feature=youtu.be&ab_channel=Aculite)
+* [Spec Ops Gameplay](https://www.youtube.com/watch?v=M9h94u3fH-E&feature=youtu.be&ab_channel=theRadBrad)
 
 ### Acknowledgements:
 * W3Schools

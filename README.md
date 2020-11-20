@@ -35,13 +35,25 @@ Summary for commit 3.0:
 * Categorised my photos and icons into folders.
 
 ## Commit 4.0
+For the fourth commit, I have completed the whole features page. I included some extra cool features such as a linear gradient background to make it less dull compared to just being black. I segregated the different features to make it more neat as well and less cluttered.
+
+All the pictures shown are close representations of what the actual gamemodes are based on what I could reference online.
+
+Also, I added a slight touch up to the footer of the home page by also adding a small amount of linear gradient to the background of the container, now it blends better.
+
 Summary for commit 4.0:
-* TBD
+* Completed Features page
+* Touched up home page background (Linear Gradient)
+* Feature page segregation
 
 ## Feature Goals (To be done near end of project only):
 -[] Navigation bar position to follow user scroll
 -[] Responsiveness yet to be completed
 -[] Add hover overlay for footer buttons and icons
+-[] Add text animation upon page view
+-[] Add page transition
+-[] Refine purchase button
+-[] Make use of Javascript
 
 ## Features:
 * Home Page
@@ -64,9 +76,22 @@ Summary for commit 4.0:
 
 ## Credits:
 ### Content:
-* https://www.youtube.com/watch?v=3XSi4VQRL8E&ab_channel=Cal - Modern Warfare Cinematics
-* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techtimes.com%2Farticles%2F245849%2F20191029%2Fcall-of-duty-modern-warfare-patch-1-05-is-now-live.htm&psig=AOvVaw03Nu007nLonEy1ezvEItx1&ust=1605865440485000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjZ44Wpju0CFQAAAAAdAAAAABAD - Modern Warfare Logo
+* [Modern Warfare Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techtimes.com%2Farticles%2F245849%2F20191029%2Fcall-of-duty-modern-warfare-patch-1-05-is-now-live.htm&psig=AOvVaw03Nu007nLonEy1ezvEItx1&ust=1605865440485000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjZ44Wpju0CFQAAAAAdAAAAABAD)
+* [ESRB Logo](https://www.playstation.com/en-us/explore/playstation-plus/call-of-duty-modern-warfare/)
+* [Call Of Duty Logo](https://logos.fandom.com/wiki/Call_of_Duty:_Modern_Warfare_(2019))
+* [Infinity Ward Logo](https://alchetron.com/Infinity-Ward)
+* [Quick Access Photo](https://www.altchar.com/game-news/rumour-four-new-call-of-duty-modern-warfare-games-planned-arVLv0i4nqQT)
+* [Quick Access Photo](https://dotesports.com/call-of-duty/news/heres-what-happens-when-you-hit-level-55-in-call-of-duty-modern-warfare)
+* [Warzone Picture](https://giphy.com/explore/codwarzone)
+* [Campaign Picture](https://starlvrd.tumblr.com/post/185259654182/call-of-duty-modern-warfare-reveal-trailer)
+* [Special Ops and Multiplayer Picture](https://filmstorm.net/iw-engine-bringing-future-tech-into-modern-warfare/)
+* [Quicksand Font](https://fonts.google.com/specimen/Quicksand?sidebar.open=true&selection.family=Quicksand)
+* [Kanit Font](https://fonts.google.com/specimen/Kanit?preview.text=Kanit&preview.text_type=custom&query=Kanit)
 
 ### Media:
+* [Modern Warfare Cinematics](https://www.youtube.com/watch?v=3XSi4VQRL8E&ab_channel=Cal)
 
 ### Acknowledgements:
+* W3Schools
+* Youtube videos
+* Google Fonts

@@ -4,20 +4,27 @@
         <title>Home</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
 
-    <body class="body" id="body">
-        <header class="headerContainer">
-            <div class="headerText">
+    <body>
+        <header>
+            <nav>
                 <img class="mwLogo" src="Home Page IMG/Logo/MWlogo.png" alt="Modern Warfare Logo">
-                <a href="index.html" class="link"><h4>Home</h4></a>
-                <a href="features.html" class="link"><h4>Features</h4></a>
-                <a href="gameplay.html" class="link"><h4>Gameplay</h4></a>
-            </div>
 
-            <div class="headerTextRight">
-                <a href="https://us.shop.battle.net/en-us/family/call-of-duty-mw" class="link"><h4>Purchase</h4></a>
-            </div>
+                <ul class="navigationList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="gameplay.html">Gameplay</a></li>
+                    <li><a href="https://us.shop.battle.net/en-us/family/call-of-duty-mw" class="purchaseBtn">Purchase</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
         </header>
 
         <div class="videoimgContainer">
@@ -37,7 +44,7 @@
 
             <div class="gameplayAccess">
                 <img class="access2" src="Home Page IMG/QuickAccess/MWaccess2.jpg" alt="Modern Warfare Picture">
-                <a href="features.html" class="gameplayText"><p>#Gameplay</p></a>
+                <a href="gameplay.html" class="gameplayText"><p>#Gameplay</p></a>
             </div>
         </div>
 
@@ -58,5 +65,6 @@
                 <a href="https://www.reddit.com/r/modernwarfare/"><img class="footerIcon" src="Home Page IMG/FooterIcon/reddit.png" alt="Reddit Icon"></a>
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>

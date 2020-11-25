@@ -58,25 +58,40 @@ Summary for commit 5.0:
 * Linear Gradient Background
 * Video embedded into the page
 * All video content creators are linked and credited appropriately in README.md
+* Added script.js file
 
-## Feature Goals (To be done near end of project only):
--[] Navigation bar position to follow user scroll
--[] Responsiveness yet to be completed
--[] Add hover overlay for footer buttons and icons
--[] Add text animation upon page view
--[] Add page transition
--[] Refine purchase button
--[] Make use of Javascript
+## Commit 6.0
+For the sixth commit, I had to completely revamp the navigation bar. I learn how to use Javascript from youtube videos as well as w3schools. With that I made my hamburger menu with a responsive navigation bar. I had to remake the navigation bar because with the previous navigation bar it was pretty messy and hard to code out the hamburger menu hence I started fresh but still sticking close to the original idea.
+
+Also with the help of w3schools again and some youtube tutorials, I learnt how to make a good looking button. Though the color will could be refined again in the future.
+
+Now I have more or less started on trying to do responsiveness for the website.
+
+Summary for commit 6.0:
+* Revamped navigation bar
+* Edited the README.md format a slight bit (Features area changed, testing area changed)
+* Refined the purchase button
+* Learned and used javascript
 
 ## Features:
+### Existing Features:
 * Home Page
 * Features / Gamemodes Page
 * Gameplay Page
-* Game Purchase Section / Page
+* Game Purchase Button
 * Actual video footage of gameplay
 * Attractive home background video images
 
-## Technologies Used:
+### Feature Goals (TBA):
+* [] Navigation bar position to follow user scroll
+* [] Responsiveness yet to be completed
+* [] Add hover overlay for footer buttons and icons
+* [] Add text animation upon page view
+* [] Add page transition
+* [x] Refine purchase button
+* [x] Make use of Javascript
+
+## Technologies Used: (To be linked and description of use TBA)
 * HTML
 * CSS
 * Google Chrome
@@ -85,7 +100,22 @@ Summary for commit 5.0:
 * Javascript(TBD)
 
 ## Testing:
-* TBA
+### Home Page:
+So for the home page testing, the first issue I encountered when making the home page was the stacking of text over a background image but I quickly resolved that by using position relative on the parent container and position absolute on the child container which allowed the child container to move according to the parent parameter.
+
+Next I faced an issue with the purchase button, I couldn't decide how to design the purchase button so I had to leave it for a final touch up near the end of the project. I plan to make a better looking button / navigation text.
+
+I had issues trying to overlay the quick access panels as whenever I tried to add a link to the picture / container the position of the container will just shift and move around. I tried to fix the issue but was unable to, the solution i came up with was by making the text container larger and give it a grey background overlay when hovered over.
+
+Lastly, when testing the responsiveness for this page. The navigation bar was too small, the quick access panels needs to be relocated, and the developer logos were way too big which made the container width a bit messed up. All these were addressed in the responsiveness area respectively.
+
+### Features Page:
+
+### Gameplay Page:
+
+### Responsiveness:
+
+### Final Testing:
 
 ## Credits:
 ### Content:

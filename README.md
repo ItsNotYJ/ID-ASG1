@@ -117,6 +117,12 @@ For the code validation, everything has been checked and all errors were correct
 * Finished code validation for HTML and CSS
 * Refined Navigation bar and purchase button at the footer (Added slight transitions)
 
+## Commit 11.0
+For the eleventh commit, I mainly just finished up the markdown file with the testing and finished up linking all the respective text as well cited all used references.
+
+#### Summary for commit 11.0:
+* Markdown is more or less completed
+
 ## Features:
 ### Existing Features:
 * Home Page
@@ -125,23 +131,26 @@ For the code validation, everything has been checked and all errors were correct
 * Game Purchase Button
 * Actual video footage of gameplay
 * Attractive home background video images
+* Text Animations
+* Animated Button
 
-### Feature Goals (TBA):
-* [] Navigation bar position to follow user scroll
-* [x] Responsiveness completed
-* [] Add text animation upon page view
-* [] Add page transition
-* [x] Refine purchase button
-* [x] Make use of Javascript
+### Features To Be Added:
+- []Page Transitions
+- []Text Transitions
 
 ## Technologies Used: (To be linked and description of use TBA)
-* HTML
-* CSS
-* Google Chrome
-* Visual Studio Code
-* Adobe XD
-* Javascript
-* Normalize css
+* [HTML](https://www.w3schools.com/html/)
+    * Language used to code the front-end of the webpage
+* [CSS](https://www.w3schools.com/css/)
+    * Language that was used to perform styling on HTML elements in the project
+* [Javascript](https://www.javascript.com/)
+    * Javascript language used to create interactive hamburger menu for the website
+* [Visual Studio Code](https://code.visualstudio.com/)
+    * IDE used to code HTML, CSS and JS for the project
+* [Adobe XD](https://www.adobe.com/sea/products/xd.html)
+    * Used Adobe XD to create the wireframe and layout for the website
+* [Normalize css](https://necolas.github.io/normalize.css/)
+    * Normalize.css was used to render all elements more consistently and in line with modern standards
 
 ## Testing:
 ### Home Page:
@@ -151,15 +160,30 @@ Next I faced an issue with the purchase button, I couldn't decide how to design 
 
 I had issues trying to overlay the quick access panels as whenever I tried to add a link to the picture / container the position of the container will just shift and move around. I tried to fix the issue but was unable to, the solution i came up with was by making the text container larger and give it a grey background overlay when hovered over.
 
-Lastly, when testing the responsiveness for this page. The navigation bar was too small, the quick access panels needs to be relocated, and the developer logos were way too big which made the container width a bit messed up. All these were addressed in the responsiveness area respectively. The hamburger menu couldn't cover up the full screen automatically so I had to restrict it to a fixed size but it stilled worked out.
+Lastly, when testing the responsiveness for this page. The navigation bar was too small, the quick access panels needs to be relocated, and the developer logos were way too big which made the container width a bit messed up. All these were addressed in the responsiveness area respectively. The hamburger menu couldn't cover up the full screen automatically so I had to restrict it to a fixed size but it stilled worked out. All links on the page are working as it should.
 
 ### Features Page:
+When testing the features page, there were not too many issues since the flex box layout helped to put everything in place very nicely. Only issue I encountered was mainly the spacing between the text as well as the spacing between each feature which is seperated by the border line.
+
+I did my best to space out each feature and description as much as possible so that it can still be comfortable to view and read. All links on the page are working as it should.
 
 ### Gameplay Page:
+The testing for this page wasn't too hard either as it was just a page with embedded videos as gameplay description for Modern Warfare. The layout of the embedded videos were pretty simple as well with the use of flex box layouts, I tried messing around with different videos and tried to find those with higher quality thumbnails so that it wouldn't look as bad when being previewed.
+
+The videos do load properly and is playing properly as well. All links on the page are working as it should.
 
 ### Responsiveness:
+At this stage I faced quite a lot of issues, first off I had to consider redesigning / re-code my navigation bar because of how the hamburger menu was styled. This had to be done in order to create a proper and sleek responsiveness navigation bar when the webpage is displayed on smaller screens. Had to spend hours trying to fix and work the code but luckily I had the help of a few video tutorials which helped a lot.
 
-### Final Testing:
+Next, I had to re-style my quick access panels as well because the way the styling was applied to the access panels made it impossible to properly lay it out in the mobile view. However, I already had in mind what I needed to do so this process did not take as long. Fortunately, all worked out when I finished the responsiveness for the Home Page.
+
+At first the developer logo was slightly off center so I had to adjust the position manually using margin which I really did not want to do but luckily it did not affect the responsiveness and still displayed properly on the mobile devices.
+
+With the feature page responsiveness, I did not encounter much of an issue as stated a few paragraphs up under the **Features Page** section where I explained about how the responsiveness testing went as well.
+
+Similar with that of the feature page responsiveness, for the gameplay page responsiveness I did not encounter any issues as well. Do refer to the **Gameplay Page** section for further information if needed.
+
+Lastly, about the images, I tried to rescale the images the best I could to not make it too small nor too big. Though I do still feel that the images are particularly small compared when its viewed on the desktop. However, the webpage still looks attractive despite that so I'm quite happy with it though I hope to improve on that in the future.
 
 ## Credits:
 ### Content:
@@ -186,6 +210,6 @@ Lastly, when testing the responsiveness for this page. The navigation bar was to
 * [Spec Ops Gameplay](https://www.youtube.com/watch?v=M9h94u3fH-E&feature=youtu.be&ab_channel=theRadBrad)
 
 ### Acknowledgements:
-* W3Schools
-* Youtube videos
-* Google Fonts
+* [W3Schools](https://www.w3schools.com/)
+* [Youtube](https://www.youtube.com/)
+* [Google Fonts](https://fonts.google.com/)

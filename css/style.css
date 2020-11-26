@@ -28,7 +28,7 @@ body{
 
 .purchaseBtn::before{
     position: absolute;
-    background: rgb(155, 89, 182, 0.6);
+    background: rgba(228, 226, 226, 0.2);
     content: "";
 
     top: 50%;
@@ -66,6 +66,11 @@ nav{
 .navigationList a{
     text-decoration: none;
     color: white;
+}
+
+.navigationList:hover a{
+    transition: 0.3s ease;
+    color: rgb(142, 68, 173);
 }
 
 .navigationList li{
@@ -195,11 +200,19 @@ nav{
     width: 400px;
     border: 2px solid white;
     text-align: center;
+    
+    background-color: rgb(0, 0, 0, 0.2);
 }
 
 .purchaseLink{
     text-decoration: none;
     color: white;
+}
+
+.purchaseText:hover{
+    transition: 0.8s ease;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: rgb(142, 68, 173);
 }
 
 .iconContainer{
@@ -378,6 +391,10 @@ nav{
 
 /* Gameplay */
 /* Main */
+iframe{
+    border: 0;
+}
+
 .gameplayTitle{
     font-family: "Kanit", sans-serif;
     font-size: 50px;

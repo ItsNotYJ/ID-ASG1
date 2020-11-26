@@ -108,6 +108,15 @@ I decided to remove the credits paragraph as I felt that it was uneccessary
 * Updated background gradient color to the same as other pages
 * Updated README.md format a slight bit (header sizes and stuff)
 
+## Commit 10.0
+For the tenth commit, I mainly dealt with code validation of my HTML and CSS. I reorganized my files into appropriate folders with conventional file naming. All sources were updated accordingly.
+
+For the code validation, everything has been checked and all errors were corrected accordingly. Lastly, I made a slight transition when users hover over the navigation bar links as well as the purchase button at the footer just to give the website a better aesthetic and flow.
+
+#### Summary for commit 10.0:
+* Finished code validation for HTML and CSS
+* Refined Navigation bar and purchase button at the footer (Added slight transitions)
+
 ## Features:
 ### Existing Features:
 * Home Page

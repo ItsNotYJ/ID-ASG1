@@ -73,6 +73,21 @@ Summary for commit 6.0:
 * Refined the purchase button
 * Learned and used javascript
 
+## Commit 7.0
+For the seventh commit, I had to completely restyle my quick access panels as I had difficulty positioning it when doing the responsiveness. The main things that I changed were the position: absolute and position: relative plus a few changes to the way the hover overlay is done.
+
+Also, I have fully completed the resposiveness for Home Page, I tested all possible devices except for the galaxy fold as that device always seems to have an issue regardless of whichever website.
+
+For the hamburger menu, I couldn't really find a way for the view height to adjust automatically based on the page height so I decided to make the drop down smaller with a slight opaqueness to it so that it looks much more natural.
+
+I updated the header and navigation bars accordingly for the features and gameplay page as well. Plus I changed the color of the purchase button and its animation, together with the background linear gradient of the home page. When I played around with this, it somehow gave my image a slight tint of purple which makes it all the more nicer!
+
+Summary for commit 7.0:
+* Restyled quick access panels
+* Updated navigation bar for other pages
+* Completed responsiveness for home page
+* Refined color scheme of page and button
+
 ## Features:
 ### Existing Features:
 * Home Page
@@ -85,7 +100,6 @@ Summary for commit 6.0:
 ### Feature Goals (TBA):
 * [] Navigation bar position to follow user scroll
 * [] Responsiveness yet to be completed
-* [] Add hover overlay for footer buttons and icons
 * [] Add text animation upon page view
 * [] Add page transition
 * [x] Refine purchase button
@@ -97,7 +111,8 @@ Summary for commit 6.0:
 * Google Chrome
 * Visual Studio Code
 * Adobe XD
-* Javascript(TBD)
+* Javascript
+* Normalize css
 
 ## Testing:
 ### Home Page:
@@ -107,7 +122,7 @@ Next I faced an issue with the purchase button, I couldn't decide how to design 
 
 I had issues trying to overlay the quick access panels as whenever I tried to add a link to the picture / container the position of the container will just shift and move around. I tried to fix the issue but was unable to, the solution i came up with was by making the text container larger and give it a grey background overlay when hovered over.
 
-Lastly, when testing the responsiveness for this page. The navigation bar was too small, the quick access panels needs to be relocated, and the developer logos were way too big which made the container width a bit messed up. All these were addressed in the responsiveness area respectively.
+Lastly, when testing the responsiveness for this page. The navigation bar was too small, the quick access panels needs to be relocated, and the developer logos were way too big which made the container width a bit messed up. All these were addressed in the responsiveness area respectively. The hamburger menu couldn't cover up the full screen automatically so I had to restrict it to a fixed size but it stilled worked out.
 
 ### Features Page:
 
@@ -130,6 +145,9 @@ Lastly, when testing the responsiveness for this page. The navigation bar was to
 * [Special Ops and Multiplayer Picture](https://filmstorm.net/iw-engine-bringing-future-tech-into-modern-warfare/)
 * [Quicksand Font](https://fonts.google.com/specimen/Quicksand?sidebar.open=true&selection.family=Quicksand)
 * [Kanit Font](https://fonts.google.com/specimen/Kanit?preview.text=Kanit&preview.text_type=custom&query=Kanit)
+* [Color Codes](https://htmlcolorcodes.com/)
+* [Button tutorial](https://www.youtube.com/watch?v=CMgl_etzlTI&t=62s&ab_channel=DarkCode)
+* [Hamburger Menu](https://www.youtube.com/watch?v=gXkqy0b4M5g&ab_channel=DevEd)
 
 ### Media:
 * [Modern Warfare Cinematics](https://www.youtube.com/watch?v=3XSi4VQRL8E&ab_channel=Cal)

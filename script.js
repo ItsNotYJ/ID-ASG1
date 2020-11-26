@@ -2,6 +2,7 @@ const menu = () => {
     const burger = document.querySelector('.hamburger');
     const nav = document.querySelector('.navigationList');
     const navLinks = document.querySelectorAll('.navigationList li');
+    var out = false;
 
     //To open the navigation / hamburger menu
     burger.addEventListener('click', () => {

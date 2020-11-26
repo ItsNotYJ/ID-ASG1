@@ -370,7 +370,7 @@ body{
     font-family: "Kanit", sans-serif;
     text-decoration: none;
 
-    border: 2px solid #8E44AD;
+    border: 2px solid whitesmoke;
     padding: 10px 20px;
 
     overflow: hidden;
@@ -379,7 +379,7 @@ body{
 
 .purchaseBtn::before{
     position: absolute;
-    background: #8E44AD;
+    background: rgb(116, 115, 115);
     content: "";
 
     top: 50%;
@@ -400,7 +400,7 @@ body{
 /* Navigation Text Styling */
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
 
@@ -438,6 +438,7 @@ nav{
 
 /* Main */
 .mainContainer{
+    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0), rgb(142, 68, 173, 0.4));
     display: flex;
 }
 
@@ -445,11 +446,11 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
 .mainVideo{
     position: relative;
-    display: block;
     width: 100%;
     opacity: 0.6;
 }
@@ -464,94 +465,71 @@ nav{
 
 /* Features Image Positioning and Text Aligning */
 .featuresAccess{
-    display:flex;
-    position: relative;
+    display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-
-    height: auto;
-    width: 50%;
 }
 
 .access1{
-    position: absolute;
-
+    width: 100%;
     height: auto;
-    width: 100%;
-
-    opacity: 0.7;
-}
-
-/* Image Overlay */
-.featureText{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-
-    background-color: black;
-
-    z-index: 0;
-
-    opacity: 0.2;
-    font-family: "Kanit", sans-serif;
-    font-size: 50px;
-    color: white;
-}
-
-.featureText:hover {
-    transition: .3s ease;
-    opacity: 0.6;
-}
-
-/* Gameplay Image Positioning and Text Aligning */
-.gameplayAccess{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     position: relative;
 
-    height: auto;
-    width: 50%;
+    opacity: 0.8;
+}
+
+.featureText{
+    position: absolute;
+
+    font-family: "Kanit", sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.gameplayAccess{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .access2{
-    height: auto;
     width: 100%;
-    
-    opacity: 0.7;
+    height: auto;
+    position: relative;
+
+    opacity: 0.8;
 }
 
-/* Image Overlay */
 .gameplayText{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+
+    font-family: "Kanit", sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.href{
     height: 100%;
     width: 100%;
-    text-decoration: none;
-    background-color: black;
-
-    position: absolute;
-    
-    opacity: 0.2;
-    font-family: "Kanit", sans-serif;
-    font-size: 50px;
-    color: White;
 }
 
-.gameplayText:hover {
-    transition: .3s ease;
-    opacity: 0.6;
+.access1:hover{
+    transition: 0.3s ease;
+    opacity: 0.5;
+}
+
+.access2:hover{
+    transition: 0.3s ease;
+    opacity: 0.5;
 }
 
 /* Footer */
 .footerContainer{
-    background-image: linear-gradient(to top, rgba(36, 36, 36, 0), rgb(66, 100, 98, 0.8));
-    border-top: 2px solid white;
+    background-image: linear-gradient(to top, rgba(36, 36, 36, 0), rgb(142, 68, 173, 0.4));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -568,6 +546,11 @@ nav{
     width: 400px;
     border: 2px solid white;
     text-align: center;
+}
+
+.purchaseLink{
+    text-decoration: none;
+    color: white;
 }
 
 .iconContainer{
@@ -826,16 +809,37 @@ nav{
         width: 90%;
         font-size: 25px;
     }
+
+    .developerIcon1{
+        width: 30%;
+        height: auto;
+    }
+
+    .developerIcon2{
+        width: 30%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .developerIcon3{
+        width: 30%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
     /* Home Page */
-    body{
+    .body{
         overflow-x: hidden;
     }
 
     .mwLogo{
         width: 10%;
+        height: auto;
+    }
+
+    .mainLogo{
+        width: 40%;
         height: auto;
     }
 
@@ -850,13 +854,14 @@ nav{
         z-index: 1;
         transform: translateX(100%);
 
-        height: 100%;
+        height: 50vh;
         width: 100%;
         right: 0;
         top:8vh;
         
-        background-color: blue;
+        background-color: black;
         transition: 0.5s ease-in;
+        display: none;
     }
 
     .navigationList li{
@@ -867,9 +872,29 @@ nav{
         display: block;
         cursor: pointer;
     }
+    /* Home Page Quick Access Responsiveness */
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .href{
+        margin-bottom: -4px;
+    }
+
+    /* Home Page Footer Responsiveness */
+    .purchaseText{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .purchaseLink{
+        font-size: 15px;
+    }
 
     .developerContainer{
         flex-direction: column;
+        padding-left: 10px;
     }
 
     .developerIcon1{
@@ -887,6 +912,18 @@ nav{
         width: 40%;
         height: auto;
     }
+
+    .footerIcon{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 20px;
+        width: 50%;
+        height: auto;
+    }
+
+    /* Features Page Responsiveness */
+
 }
 
 /* Hamburger */
@@ -903,6 +940,8 @@ nav{
 
 .nav-active{
     transform: translate(0%);
+    opacity: 0.97;
+    display: flex;
 }
 
 .toggle .line1{

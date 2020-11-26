@@ -7,7 +7,7 @@ Firstly, the home page will start of with a visual / background gameplay to show
 ## Commit 1.0
 For the first commit/process of the project what I have done is created the navigation bar with proper linking to the other pages. However, the color scheme is yet to be finalized.
 
-Summary for commit 1.0:
+#### Summary for commit 1.0:
 * All required pages are created and updated properly
 * Navigation Bar for all pages has been completed
 * Navigation Bar items are linked to the respective pages
@@ -17,7 +17,7 @@ For the second commit, I have created the main portion of the home page with the
 
 Created the quick access section for the home page where users can click on the image text and be sent to the respective page. Also Lastly, the quick access image/text is linked to its respective pages as well.
 
-Summary for commit 2.0:
+#### Summary for commit 2.0:
 * Main video background and logo completed
 * Quick access section completed
 * Quick access is linked respectively
@@ -28,7 +28,7 @@ For the third commit, I have finished the footer completely, including extra fea
 
 Also, I changed the quick access icons a bit such as a hover overlay and also linked it appropriately to its pages. Similarly, all icons, photos and videos are all placed into their new created respective folders based on the page itself. All folders were named conventionally.
 
-Summary for commit 3.0:
+#### Summary for commit 3.0:
 * Completed Footer for Home Page
 * Added Hover Overlay for Quick Access in Main
 * Clean up some code for the previous sections
@@ -41,7 +41,7 @@ All the pictures shown are close representations of what the actual gamemodes ar
 
 Also, I added a slight touch up to the footer of the home page by also adding a small amount of linear gradient to the background of the container, now it blends better.
 
-Summary for commit 4.0:
+#### Summary for commit 4.0:
 * Completed Features page
 * Touched up home page background (Linear Gradient)
 * Feature page segregation
@@ -53,7 +53,7 @@ Similar to the other pages I stuck with the linear gradient background to make i
 
 For the next upcoming commit, I will try to implement a sticky navigation bar if possible as well as improve on the responsiveness of the website. Hopefully 100% responsiveness by the next commit.
 
-Summary for commit 5.0:
+#### Summary for commit 5.0:
 * Completed Gameplay page
 * Linear Gradient Background
 * Video embedded into the page
@@ -67,7 +67,7 @@ Also with the help of w3schools again and some youtube tutorials, I learnt how t
 
 Now I have more or less started on trying to do responsiveness for the website.
 
-Summary for commit 6.0:
+#### Summary for commit 6.0:
 * Revamped navigation bar
 * Edited the README.md format a slight bit (Features area changed, testing area changed)
 * Refined the purchase button
@@ -82,7 +82,7 @@ For the hamburger menu, I couldn't really find a way for the view height to adju
 
 I updated the header and navigation bars accordingly for the features and gameplay page as well. Plus I changed the color of the purchase button and its animation, together with the background linear gradient of the home page. When I played around with this, it somehow gave my image a slight tint of purple which makes it all the more nicer!
 
-Summary for commit 7.0:
+#### Summary for commit 7.0:
 * Restyled quick access panels
 * Updated navigation bar for other pages
 * Completed responsiveness for home page
@@ -93,15 +93,20 @@ For the eigth commit, I have completed the responsiveness for the features page.
 
 Also I changed the background linear gradient color to the same as the home page so as to match the color scheme. Plus I adjusted the margin spacing between each feature and the border thickness to make it more readible and comfortable for the eyes.
 
-Summary for commit 8.0:
+#### Summary for commit 8.0:
 * Completed Responsiveness for Features Page
 * Added linear background gradient color same as home page
 * Adjusted styling for each feature for better viewing experience
 
 ## Commit 9.0
+For the ninth commit, I have completed the responsiveness for the gameplay page. The main component was adjusting the embedded video frame sizes as well as the header and title font sizes. There was not much required to adjust for responsiveness other than that. I changed the background gradient to the same color scheme of the rest as well.
 
-Summary for commit 9.0:
-* TBD
+I decided to remove the credits paragraph as I felt that it was uneccessary
+
+#### Summary for commit 9.0:
+* Gameplay page responsiveness done
+* Updated background gradient color to the same as other pages
+* Updated README.md format a slight bit (header sizes and stuff)
 
 ## Features:
 ### Existing Features:
@@ -114,7 +119,7 @@ Summary for commit 9.0:
 
 ### Feature Goals (TBA):
 * [] Navigation bar position to follow user scroll
-* [] Responsiveness yet to be completed
+* [x] Responsiveness completed
 * [] Add text animation upon page view
 * [] Add page transition
 * [x] Refine purchase button

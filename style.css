@@ -598,7 +598,7 @@ nav{
 }
 
 .featuresContainer{
-    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0), rgb(66, 100, 98, 0.8));
+    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0), rgb(142, 68, 173, 0.4));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -695,7 +695,8 @@ nav{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+    border-bottom: 3px solid rgb(245, 245, 245, 0.7);
 
     width: 100%;
     padding-top: 20px;
@@ -923,7 +924,81 @@ nav{
     }
 
     /* Features Page Responsiveness */
+    .featuresTitle{
+        font-size: 30px;
+    }
 
+    .feature1{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(245, 245, 245, 0.7);
+    }
+
+    .featureIMG{
+        width: 90%;
+        height: auto;
+    }
+
+    .featuresText1 h3{
+        font-size: 25px;
+    }
+
+    .featuresText1{
+        margin: 30px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .feature2{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(245, 245, 245, 0.7);
+    }
+
+    .featuresText2 h3{
+        font-size: 25px;
+    }
+
+    .featuresText2{
+        margin: 30px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .feature3{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(245, 245, 245, 0.7);
+    }
+
+    .featuresText3 h3{
+        font-size: 25px;
+    }
+
+    .featuresText3{
+        margin: 30px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .feature4{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(245, 245, 245, 0.7);
+    }
+
+    .featuresText4 h3{
+        font-size: 25px;
+    }
+
+    .featuresText4{
+        margin: 30px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /* Gameplay Page Responsiveness */
+    
 }
 
 /* Hamburger */

@@ -88,6 +88,21 @@ Summary for commit 7.0:
 * Completed responsiveness for home page
 * Refined color scheme of page and button
 
+## Commit 8.0
+For the eigth commit, I have completed the responsiveness for the features page. The main difference is that all the features are now in flex-direction: column which makes it more compact and easier to read.
+
+Also I changed the background linear gradient color to the same as the home page so as to match the color scheme. Plus I adjusted the margin spacing between each feature and the border thickness to make it more readible and comfortable for the eyes.
+
+Summary for commit 8.0:
+* Completed Responsiveness for Features Page
+* Added linear background gradient color same as home page
+* Adjusted styling for each feature for better viewing experience
+
+## Commit 9.0
+
+Summary for commit 9.0:
+* TBD
+
 ## Features:
 ### Existing Features:
 * Home Page

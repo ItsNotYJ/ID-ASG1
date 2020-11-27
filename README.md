@@ -185,6 +185,14 @@ Similar with that of the feature page responsiveness, for the gameplay page resp
 
 Lastly, about the images, I tried to rescale the images the best I could to not make it too small nor too big. Though I do still feel that the images are particularly small compared when its viewed on the desktop. However, the webpage still looks attractive despite that so I'm quite happy with it though I hope to improve on that in the future.
 
+### Web Browsers Tested On:
+* Google Chrome
+* Internet Explorer
+* Mozilla Firefox
+* Microsoft Edge
+
+These are the main few browsers I tested as its the browser majority of users use whereas browsers such as Opera, Brave and other less well known browsers.
+
 ## Credits:
 ### Content:
 * [Modern Warfare Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techtimes.com%2Farticles%2F245849%2F20191029%2Fcall-of-duty-modern-warfare-patch-1-05-is-now-live.htm&psig=AOvVaw03Nu007nLonEy1ezvEItx1&ust=1605865440485000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjZ44Wpju0CFQAAAAAdAAAAABAD)
